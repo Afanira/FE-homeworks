@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 30px;
+    font-size: 50px;
+    color: #EA2027;
+}
+
+p, h3 {
+    font-size: 25px;
+    margin: 30px 0 15px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+table {
+    margin-left: 25vw;
+    border-collapse: collapse;
+    font-size: 25px; 
+}
+
+tr:nth-child(even) {
+    background-color: #EE5A24;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFC312;
+}
+tr:first-child {
+    background-color: #EE5A24;
+    color: white;
+}
+
+
